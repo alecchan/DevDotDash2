@@ -1,0 +1,3551 @@
+{
+  "_id": ObjectId("5af5b65cdd80fefb076d91dd"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(28473)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(30300)
+        }
+      ],
+      "Duration": NumberLong(58815)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9886)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15273)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3841)
+        }
+      ],
+      "Duration": NumberLong(29002)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(20750)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(27517)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(13520)
+        }
+      ],
+      "Duration": NumberLong(61788)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(8236)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22649)
+        }
+      ],
+      "Duration": NumberLong(30886)
+    }
+  ],
+  "Duration": NumberLong(180550),
+  "CreatedDate": ISODate("2018-05-11T15:24:20.160+0000")
+}{
+  "_id": ObjectId("5af5b7b8dd80fefb076d924e"),
+  "HostName": "W7DEV3",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(30880)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(50446)
+        }
+      ],
+      "Duration": NumberLong(81363)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(10097)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(16658)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(5584)
+        }
+      ],
+      "Duration": NumberLong(32340)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(27199)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(32704)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(14998)
+        }
+      ],
+      "Duration": NumberLong(74902)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13308)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(38993)
+        }
+      ],
+      "Duration": NumberLong(52302)
+    }
+  ],
+  "Duration": NumberLong(241108),
+  "CreatedDate": ISODate("2018-05-11T15:29:07.590+0000")
+}{
+  "_id": ObjectId("5af5bec0dd80fefb076d9645"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(23221)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(32376)
+        }
+      ],
+      "Duration": NumberLong(55598)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9288)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15432)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3788)
+        }
+      ],
+      "Duration": NumberLong(28510)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(22631)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(34783)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(12522)
+        }
+      ],
+      "Duration": NumberLong(69936)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(12606)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(25150)
+        }
+      ],
+      "Duration": NumberLong(37757)
+    }
+  ],
+  "Duration": NumberLong(191804),
+  "CreatedDate": ISODate("2018-05-11T16:00:00.008+0000")
+}{
+  "_id": ObjectId("5af5ccc9dd80fefb076d9ebf"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(22030)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(29372)
+        }
+      ],
+      "Duration": NumberLong(51402)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8742)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15069)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4681)
+        }
+      ],
+      "Duration": NumberLong(28492)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(21747)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(31718)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(17495)
+        }
+      ],
+      "Duration": NumberLong(70962)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(11565)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22790)
+        }
+      ],
+      "Duration": NumberLong(34355)
+    }
+  ],
+  "Duration": NumberLong(185215),
+  "CreatedDate": ISODate("2018-05-11T17:00:00.169+0000")
+}{
+  "_id": ObjectId("5af5dacedd80fefb076da68f"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(18714)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(25415)
+        }
+      ],
+      "Duration": NumberLong(44130)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8634)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15753)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4262)
+        }
+      ],
+      "Duration": NumberLong(28650)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(22845)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(31929)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(15558)
+        }
+      ],
+      "Duration": NumberLong(70333)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(9833)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(20621)
+        }
+      ],
+      "Duration": NumberLong(30455)
+    }
+  ],
+  "Duration": NumberLong(173570),
+  "CreatedDate": ISODate("2018-05-11T18:00:00.628+0000")
+}{
+  "_id": ObjectId("5af5e8dddd80fefb076dae51"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(19366)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(26534)
+        }
+      ],
+      "Duration": NumberLong(45900)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9372)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15406)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(5029)
+        }
+      ],
+      "Duration": NumberLong(29808)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(21675)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(29817)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11458)
+        }
+      ],
+      "Duration": NumberLong(62952)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10825)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23041)
+        }
+      ],
+      "Duration": NumberLong(33867)
+    }
+  ],
+  "Duration": NumberLong(172530),
+  "CreatedDate": ISODate("2018-05-11T19:00:00.512+0000")
+}{
+  "_id": ObjectId("5af5f6f7dd80fefb076db603"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(21445)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(24706)
+        }
+      ],
+      "Duration": NumberLong(46151)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8410)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15626)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4911)
+        }
+      ],
+      "Duration": NumberLong(28948)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(23760)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(31712)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(14380)
+        }
+      ],
+      "Duration": NumberLong(69853)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(14035)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23699)
+        }
+      ],
+      "Duration": NumberLong(37734)
+    }
+  ],
+  "Duration": NumberLong(182690),
+  "CreatedDate": ISODate("2018-05-11T20:00:00.352+0000")
+}{
+  "_id": ObjectId("5af604fddd80fefb076dbd9a"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(19129)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(24223)
+        }
+      ],
+      "Duration": NumberLong(43352)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(7114)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13659)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(5141)
+        }
+      ],
+      "Duration": NumberLong(25915)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(22214)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(29481)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11898)
+        }
+      ],
+      "Duration": NumberLong(63595)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(14338)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(25491)
+        }
+      ],
+      "Duration": NumberLong(39829)
+    }
+  ],
+  "Duration": NumberLong(172693),
+  "CreatedDate": ISODate("2018-05-11T21:00:00.568+0000")
+}{
+  "_id": ObjectId("5af61316dd80fefb076dc54e"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(19929)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(32015)
+        }
+      ],
+      "Duration": NumberLong(51945)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(10624)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(16336)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4697)
+        }
+      ],
+      "Duration": NumberLong(31657)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(22376)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(29586)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(10792)
+        }
+      ],
+      "Duration": NumberLong(62754)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(12414)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22798)
+        }
+      ],
+      "Duration": NumberLong(35213)
+    }
+  ],
+  "Duration": NumberLong(181572),
+  "CreatedDate": ISODate("2018-05-11T22:00:00.583+0000")
+}{
+  "_id": ObjectId("5af6212add80fefb076dcd1f"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(20404)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(26093)
+        }
+      ],
+      "Duration": NumberLong(46498)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9208)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15489)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(5153)
+        }
+      ],
+      "Duration": NumberLong(29851)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(25406)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(32713)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(12464)
+        }
+      ],
+      "Duration": NumberLong(70584)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(14273)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(24113)
+        }
+      ],
+      "Duration": NumberLong(38386)
+    }
+  ],
+  "Duration": NumberLong(185323),
+  "CreatedDate": ISODate("2018-05-11T23:00:00.383+0000")
+}{
+  "_id": ObjectId("5af62f3cdd80fefb076dd524"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(26116)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(25636)
+        }
+      ],
+      "Duration": NumberLong(51753)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(7564)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(11975)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4495)
+        }
+      ],
+      "Duration": NumberLong(24035)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(40939)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(27479)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11198)
+        }
+      ],
+      "Duration": NumberLong(79616)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(12491)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(19488)
+        }
+      ],
+      "Duration": NumberLong(31979)
+    }
+  ],
+  "Duration": NumberLong(187386),
+  "CreatedDate": ISODate("2018-05-12T00:00:01.019+0000")
+}{
+  "_id": ObjectId("5af63d47dd80fefb076ddd78"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(21172)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(34305)
+        }
+      ],
+      "Duration": NumberLong(55477)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8822)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13342)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4157)
+        }
+      ],
+      "Duration": NumberLong(26323)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(21832)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(29712)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11836)
+        }
+      ],
+      "Duration": NumberLong(63381)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13327)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23238)
+        }
+      ],
+      "Duration": NumberLong(36565)
+    }
+  ],
+  "Duration": NumberLong(181750),
+  "CreatedDate": ISODate("2018-05-12T01:00:00.675+0000")
+}{
+  "_id": ObjectId("5af64b67dd80fefb076de642"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(28355)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(24284)
+        }
+      ],
+      "Duration": NumberLong(52639)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8001)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(14164)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4300)
+        }
+      ],
+      "Duration": NumberLong(26466)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(22325)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(39995)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(22933)
+        }
+      ],
+      "Duration": NumberLong(85254)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(11942)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(21365)
+        }
+      ],
+      "Duration": NumberLong(33307)
+    }
+  ],
+  "Duration": NumberLong(197669),
+  "CreatedDate": ISODate("2018-05-12T02:00:00.650+0000")
+}{
+  "_id": ObjectId("5af65964dd80fefb076dee41"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(20372)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(32237)
+        }
+      ],
+      "Duration": NumberLong(52610)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(10060)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(11822)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3852)
+        }
+      ],
+      "Duration": NumberLong(25735)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(26292)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(35310)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(10984)
+        }
+      ],
+      "Duration": NumberLong(72586)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10702)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(18419)
+        }
+      ],
+      "Duration": NumberLong(29122)
+    }
+  ],
+  "Duration": NumberLong(180055),
+  "CreatedDate": ISODate("2018-05-12T03:00:00.539+0000")
+}{
+  "_id": ObjectId("5af6676bdd80fefb076df5e0"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(18263)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(29111)
+        }
+      ],
+      "Duration": NumberLong(47375)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(7371)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(10985)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4345)
+        }
+      ],
+      "Duration": NumberLong(22703)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(26126)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(30940)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(12487)
+        }
+      ],
+      "Duration": NumberLong(69555)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(8496)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(21936)
+        }
+      ],
+      "Duration": NumberLong(30433)
+    }
+  ],
+  "Duration": NumberLong(170067),
+  "CreatedDate": ISODate("2018-05-12T04:00:00.861+0000")
+}{
+  "_id": ObjectId("5af67588dd80fefb076dfe54"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(24383)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(33662)
+        }
+      ],
+      "Duration": NumberLong(58046)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(7837)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13132)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3252)
+        }
+      ],
+      "Duration": NumberLong(24222)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(23466)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(28243)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(13333)
+        }
+      ],
+      "Duration": NumberLong(65043)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13701)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22762)
+        }
+      ],
+      "Duration": NumberLong(36464)
+    }
+  ],
+  "Duration": NumberLong(183777),
+  "CreatedDate": ISODate("2018-05-12T05:00:00.248+0000")
+}{
+  "_id": ObjectId("5af68390dd80fefb076e06c8"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(24951)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(32456)
+        }
+      ],
+      "Duration": NumberLong(57408)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8434)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(12091)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3773)
+        }
+      ],
+      "Duration": NumberLong(24299)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(22722)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(26570)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(12296)
+        }
+      ],
+      "Duration": NumberLong(61588)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10382)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22169)
+        }
+      ],
+      "Duration": NumberLong(32552)
+    }
+  ],
+  "Duration": NumberLong(175850),
+  "CreatedDate": ISODate("2018-05-12T06:00:00.810+0000")
+}{
+  "_id": ObjectId("5af691b6dd80fefb076e0f5b"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(27244)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(33369)
+        }
+      ],
+      "Duration": NumberLong(60614)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9508)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(14247)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4625)
+        }
+      ],
+      "Duration": NumberLong(28381)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(28944)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(30802)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11679)
+        }
+      ],
+      "Duration": NumberLong(71427)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13527)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23400)
+        }
+      ],
+      "Duration": NumberLong(36927)
+    }
+  ],
+  "Duration": NumberLong(197352),
+  "CreatedDate": ISODate("2018-05-12T07:00:00.964+0000")
+}{
+  "_id": ObjectId("5af6a010dd80fefb076e1825"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(28246)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(34143)
+        }
+      ],
+      "Duration": NumberLong(62390)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(11044)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(14095)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4675)
+        }
+      ],
+      "Duration": NumberLong(29815)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(48622)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(80415)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(13962)
+        }
+      ],
+      "Duration": NumberLong(143000)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13996)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22385)
+        }
+      ],
+      "Duration": NumberLong(36381)
+    }
+  ],
+  "Duration": NumberLong(271589),
+  "CreatedDate": ISODate("2018-05-12T08:00:00.615+0000")
+}{
+  "_id": ObjectId("5af6adcedd80fefb076e2045"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(26519)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(31688)
+        }
+      ],
+      "Duration": NumberLong(58207)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9262)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15545)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4077)
+        }
+      ],
+      "Duration": NumberLong(28885)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(25843)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(28758)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(12299)
+        }
+      ],
+      "Duration": NumberLong(66901)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13280)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22039)
+        }
+      ],
+      "Duration": NumberLong(35319)
+    }
+  ],
+  "Duration": NumberLong(189315),
+  "CreatedDate": ISODate("2018-05-12T09:00:00.506+0000")
+}{
+  "_id": ObjectId("5af6bbdcdd80fefb076e281b"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(21045)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(33606)
+        }
+      ],
+      "Duration": NumberLong(54651)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9328)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15833)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4118)
+        }
+      ],
+      "Duration": NumberLong(29280)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(25716)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(29709)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11546)
+        }
+      ],
+      "Duration": NumberLong(66973)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13484)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23388)
+        }
+      ],
+      "Duration": NumberLong(36872)
+    }
+  ],
+  "Duration": NumberLong(187779),
+  "CreatedDate": ISODate("2018-05-12T10:00:00.141+0000")
+}{
+  "_id": ObjectId("5af6c9f1dd80fefb076e306c"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(27304)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(31853)
+        }
+      ],
+      "Duration": NumberLong(59157)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9272)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13382)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3724)
+        }
+      ],
+      "Duration": NumberLong(26379)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(26193)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(30475)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(12994)
+        }
+      ],
+      "Duration": NumberLong(69664)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(14051)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23004)
+        }
+      ],
+      "Duration": NumberLong(37055)
+    }
+  ],
+  "Duration": NumberLong(192258),
+  "CreatedDate": ISODate("2018-05-12T11:00:00.154+0000")
+}{
+  "_id": ObjectId("5af6d7fedd80fefb076e383b"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(29232)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(31065)
+        }
+      ],
+      "Duration": NumberLong(60298)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9143)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(14147)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3948)
+        }
+      ],
+      "Duration": NumberLong(27239)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(26262)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(28033)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(10739)
+        }
+      ],
+      "Duration": NumberLong(65036)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13348)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23026)
+        }
+      ],
+      "Duration": NumberLong(36375)
+    }
+  ],
+  "Duration": NumberLong(188951),
+  "CreatedDate": ISODate("2018-05-12T12:00:00.717+0000")
+}{
+  "_id": ObjectId("5af6e613dd80fefb076e402a"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(28033)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(33264)
+        }
+      ],
+      "Duration": NumberLong(61297)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9384)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(14292)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4652)
+        }
+      ],
+      "Duration": NumberLong(28328)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(25713)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(30623)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11312)
+        }
+      ],
+      "Duration": NumberLong(67649)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13797)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23044)
+        }
+      ],
+      "Duration": NumberLong(36842)
+    }
+  ],
+  "Duration": NumberLong(194119),
+  "CreatedDate": ISODate("2018-05-12T13:00:00.951+0000")
+}{
+  "_id": ObjectId("5af6f422dd80fefb076e47fe"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(30178)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(33355)
+        }
+      ],
+      "Duration": NumberLong(63533)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9375)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13943)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(5144)
+        }
+      ],
+      "Duration": NumberLong(28463)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(25991)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(27419)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11209)
+        }
+      ],
+      "Duration": NumberLong(64620)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13920)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23061)
+        }
+      ],
+      "Duration": NumberLong(36982)
+    }
+  ],
+  "Duration": NumberLong(193600),
+  "CreatedDate": ISODate("2018-05-12T14:00:00.365+0000")
+}{
+  "_id": ObjectId("5af70229dd80fefb076e4fe8"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(21063)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(26295)
+        }
+      ],
+      "Duration": NumberLong(47358)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9305)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15434)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4743)
+        }
+      ],
+      "Duration": NumberLong(29483)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(25308)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(32557)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(12828)
+        }
+      ],
+      "Duration": NumberLong(70693)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13818)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23145)
+        }
+      ],
+      "Duration": NumberLong(36964)
+    }
+  ],
+  "Duration": NumberLong(184502),
+  "CreatedDate": ISODate("2018-05-12T15:00:00.737+0000")
+}{
+  "_id": ObjectId("5af7107ddd80fefb076e59a5"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(21091)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(27849)
+        }
+      ],
+      "Duration": NumberLong(48940)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(13158)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(17734)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3995)
+        }
+      ],
+      "Duration": NumberLong(34889)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(40667)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(59576)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(24925)
+        }
+      ],
+      "Duration": NumberLong(125168)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(14611)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(28478)
+        }
+      ],
+      "Duration": NumberLong(43089)
+    }
+  ],
+  "Duration": NumberLong(252090),
+  "CreatedDate": ISODate("2018-05-12T16:00:00.553+0000")
+}{
+  "_id": ObjectId("5af71e79dd80fefb076e6134"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(24520)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(26828)
+        }
+      ],
+      "Duration": NumberLong(51348)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(12237)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13438)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3593)
+        }
+      ],
+      "Duration": NumberLong(29268)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(38519)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(53658)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(24040)
+        }
+      ],
+      "Duration": NumberLong(116218)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(11453)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23845)
+        }
+      ],
+      "Duration": NumberLong(35298)
+    }
+  ],
+  "Duration": NumberLong(232136),
+  "CreatedDate": ISODate("2018-05-12T17:00:00.988+0000")
+}{
+  "_id": ObjectId("5af72c78dd80fefb076e68b1"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(22544)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(26536)
+        }
+      ],
+      "Duration": NumberLong(49080)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9757)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15458)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4064)
+        }
+      ],
+      "Duration": NumberLong(29280)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(29984)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(57323)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(18535)
+        }
+      ],
+      "Duration": NumberLong(105842)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10553)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(20305)
+        }
+      ],
+      "Duration": NumberLong(30859)
+    }
+  ],
+  "Duration": NumberLong(215066),
+  "CreatedDate": ISODate("2018-05-12T18:00:00.427+0000")
+}{
+  "_id": ObjectId("5af73a8bdd80fefb076e706f"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(23872)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(29057)
+        }
+      ],
+      "Duration": NumberLong(52930)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9998)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13930)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4188)
+        }
+      ],
+      "Duration": NumberLong(28117)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(30481)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(49072)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(23605)
+        }
+      ],
+      "Duration": NumberLong(103159)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(11984)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(21425)
+        }
+      ],
+      "Duration": NumberLong(33409)
+    }
+  ],
+  "Duration": NumberLong(217618),
+  "CreatedDate": ISODate("2018-05-12T19:00:00.797+0000")
+}{
+  "_id": ObjectId("5af74887dd80fefb076e77ea"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(19883)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(27664)
+        }
+      ],
+      "Duration": NumberLong(47547)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8881)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13001)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4287)
+        }
+      ],
+      "Duration": NumberLong(26169)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(27973)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(41484)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(23781)
+        }
+      ],
+      "Duration": NumberLong(93239)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(9099)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22340)
+        }
+      ],
+      "Duration": NumberLong(31440)
+    }
+  ],
+  "Duration": NumberLong(198398),
+  "CreatedDate": ISODate("2018-05-12T20:00:00.694+0000")
+}{
+  "_id": ObjectId("5af75697dd80fefb076e7f6d"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(26309)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(30363)
+        }
+      ],
+      "Duration": NumberLong(56672)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9598)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(13822)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3553)
+        }
+      ],
+      "Duration": NumberLong(26975)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(25835)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(38878)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(19454)
+        }
+      ],
+      "Duration": NumberLong(84168)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(8778)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(21940)
+        }
+      ],
+      "Duration": NumberLong(30718)
+    }
+  ],
+  "Duration": NumberLong(198536),
+  "CreatedDate": ISODate("2018-05-12T21:00:00.378+0000")
+}{
+  "_id": ObjectId("5af7649edd80fefb076e874e"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(19474)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(29047)
+        }
+      ],
+      "Duration": NumberLong(48521)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8722)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(14229)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4704)
+        }
+      ],
+      "Duration": NumberLong(27656)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(22172)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(35047)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(17381)
+        }
+      ],
+      "Duration": NumberLong(74601)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(11563)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(27380)
+        }
+      ],
+      "Duration": NumberLong(38943)
+    }
+  ],
+  "Duration": NumberLong(189724),
+  "CreatedDate": ISODate("2018-05-12T22:00:00.167+0000")
+}{
+  "_id": ObjectId("5af772c9dd80fefb076e8f4a"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(20428)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(31609)
+        }
+      ],
+      "Duration": NumberLong(52037)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(11042)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15538)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4146)
+        }
+      ],
+      "Duration": NumberLong(30727)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(30765)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(45945)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(19207)
+        }
+      ],
+      "Duration": NumberLong(95918)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10744)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(27112)
+        }
+      ],
+      "Duration": NumberLong(37857)
+    }
+  ],
+  "Duration": NumberLong(216543),
+  "CreatedDate": ISODate("2018-05-12T23:00:00.234+0000")
+}{
+  "_id": ObjectId("5af78128dd80fefb076e96b2"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(19443)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(26109)
+        }
+      ],
+      "Duration": NumberLong(45552)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(10480)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(16152)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4470)
+        }
+      ],
+      "Duration": NumberLong(31102)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(25214)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(79818)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(80165)
+        }
+      ],
+      "Duration": NumberLong(185198)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(12046)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(21989)
+        }
+      ],
+      "Duration": NumberLong(34036)
+    }
+  ],
+  "Duration": NumberLong(295891),
+  "CreatedDate": ISODate("2018-05-13T00:00:00.649+0000")
+}{
+  "_id": ObjectId("5af78ecbdd80fefb076e9e40"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(20711)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(26443)
+        }
+      ],
+      "Duration": NumberLong(47154)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9791)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(14898)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4732)
+        }
+      ],
+      "Duration": NumberLong(29423)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(24392)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(35177)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(13380)
+        }
+      ],
+      "Duration": NumberLong(72950)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(14129)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22876)
+        }
+      ],
+      "Duration": NumberLong(37005)
+    }
+  ],
+  "Duration": NumberLong(186534),
+  "CreatedDate": ISODate("2018-05-13T01:00:00.853+0000")
+}{
+  "_id": ObjectId("5af79cd9dd80fefb076ea6c4"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(20358)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(33930)
+        }
+      ],
+      "Duration": NumberLong(54288)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8513)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15418)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4557)
+        }
+      ],
+      "Duration": NumberLong(28489)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(23185)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(31065)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(12287)
+        }
+      ],
+      "Duration": NumberLong(66538)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(12000)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22944)
+        }
+      ],
+      "Duration": NumberLong(34945)
+    }
+  ],
+  "Duration": NumberLong(184264),
+  "CreatedDate": ISODate("2018-05-13T02:00:00.594+0000")
+}{
+  "_id": ObjectId("5af7aaebdd80fefb076eaef5"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(20594)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(28112)
+        }
+      ],
+      "Duration": NumberLong(48706)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9635)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15740)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4845)
+        }
+      ],
+      "Duration": NumberLong(30221)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(24181)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(34023)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(16340)
+        }
+      ],
+      "Duration": NumberLong(74545)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10141)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23417)
+        }
+      ],
+      "Duration": NumberLong(33559)
+    }
+  ],
+  "Duration": NumberLong(187034),
+  "CreatedDate": ISODate("2018-05-13T03:00:00.162+0000")
+}{
+  "_id": ObjectId("5af7b8fddd80fefb076eb6f6"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(18828)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(34848)
+        }
+      ],
+      "Duration": NumberLong(53677)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(8501)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15781)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4025)
+        }
+      ],
+      "Duration": NumberLong(28308)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(26703)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(30689)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11749)
+        }
+      ],
+      "Duration": NumberLong(69141)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(13798)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23075)
+        }
+      ],
+      "Duration": NumberLong(36874)
+    }
+  ],
+  "Duration": NumberLong(188002),
+  "CreatedDate": ISODate("2018-05-13T04:00:00.493+0000")
+}{
+  "_id": ObjectId("5af7c724dd80fefb076ebeb3"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(20297)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(31859)
+        }
+      ],
+      "Duration": NumberLong(52157)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9170)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(12406)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3696)
+        }
+      ],
+      "Duration": NumberLong(25273)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(37096)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(46764)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(20669)
+        }
+      ],
+      "Duration": NumberLong(104530)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(9381)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(19990)
+        }
+      ],
+      "Duration": NumberLong(29371)
+    }
+  ],
+  "Duration": NumberLong(211335),
+  "CreatedDate": ISODate("2018-05-13T05:00:00.692+0000")
+}{
+  "_id": ObjectId("5af94b54fefd5e3285428d25"),
+  "HostName": "W7DEV3",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(29027)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(43826)
+        }
+      ],
+      "Duration": NumberLong(72892)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9615)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(16678)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(5383)
+        }
+      ],
+      "Duration": NumberLong(31677)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(24146)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(29518)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(13560)
+        }
+      ],
+      "Duration": NumberLong(67225)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(12577)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(31855)
+        }
+      ],
+      "Duration": NumberLong(44433)
+    }
+  ],
+  "Duration": NumberLong(216252),
+  "CreatedDate": ISODate("2018-05-14T08:36:09.052+0000")
+}{
+  "_id": ObjectId("5af94f44fefd5e3285428e5a"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(28820)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(29853)
+        }
+      ],
+      "Duration": NumberLong(58755)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(6917)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(10909)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(3276)
+        }
+      ],
+      "Duration": NumberLong(21104)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(21413)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(31675)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(15791)
+        }
+      ],
+      "Duration": NumberLong(68880)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10505)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22822)
+        }
+      ],
+      "Duration": NumberLong(33328)
+    }
+  ],
+  "Duration": NumberLong(182089),
+  "CreatedDate": ISODate("2018-05-14T08:53:30.592+0000")
+}{
+  "_id": ObjectId("5af94f65fefd5e3285428e74"),
+  "HostName": "DEV-SRVAPP01",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(20843)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(24701)
+        }
+      ],
+      "Duration": NumberLong(45573)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(11645)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(19225)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(6098)
+        }
+      ],
+      "Duration": NumberLong(36969)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(18617)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(21976)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(6050)
+        }
+      ],
+      "Duration": NumberLong(46644)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10524)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(29173)
+        }
+      ],
+      "Duration": NumberLong(39697)
+    }
+  ],
+  "Duration": NumberLong(169126),
+  "CreatedDate": ISODate("2018-05-14T08:54:10.445+0000")
+}{
+  "_id": ObjectId("5af94fbafefd5e3285428ebc"),
+  "HostName": "WIN7DEV2",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(15363)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(23419)
+        }
+      ],
+      "Duration": NumberLong(38785)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(5329)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(8202)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(2252)
+        }
+      ],
+      "Duration": NumberLong(15784)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(26910)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(25486)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11078)
+        }
+      ],
+      "Duration": NumberLong(63475)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(7560)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(25360)
+        }
+      ],
+      "Duration": NumberLong(32921)
+    }
+  ],
+  "Duration": NumberLong(151167),
+  "CreatedDate": ISODate("2018-05-14T08:56:01.720+0000")
+}{
+  "_id": ObjectId("5af950acfefd5e3285428fcc"),
+  "HostName": "DEV-SRVAPP01",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(25429)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(25792)
+        }
+      ],
+      "Duration": NumberLong(51221)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(11395)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(17703)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4917)
+        }
+      ],
+      "Duration": NumberLong(34017)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(14502)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(19779)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(5981)
+        }
+      ],
+      "Duration": NumberLong(40263)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(7887)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(21615)
+        }
+      ],
+      "Duration": NumberLong(29502)
+    }
+  ],
+  "Duration": NumberLong(155034),
+  "CreatedDate": ISODate("2018-05-14T09:00:00.904+0000")
+}{
+  "_id": ObjectId("5af951c2fefd5e32854290d0"),
+  "HostName": "WIN7DEV2",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(15604)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(22932)
+        }
+      ],
+      "Duration": NumberLong(38536)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(5294)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(7952)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(2214)
+        }
+      ],
+      "Duration": NumberLong(15461)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(19089)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(26239)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11757)
+        }
+      ],
+      "Duration": NumberLong(57086)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(6711)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(16451)
+        }
+      ],
+      "Duration": NumberLong(23163)
+    }
+  ],
+  "Duration": NumberLong(134252),
+  "CreatedDate": ISODate("2018-05-14T09:05:00.327+0000")
+}{
+  "_id": ObjectId("5af951fcfefd5e328542912d"),
+  "HostName": "W7DEV4",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(28115)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(34545)
+        }
+      ],
+      "Duration": NumberLong(62661)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(10103)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(16851)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(4693)
+        }
+      ],
+      "Duration": NumberLong(31648)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(24982)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(27598)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(11778)
+        }
+      ],
+      "Duration": NumberLong(64359)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10631)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22677)
+        }
+      ],
+      "Duration": NumberLong(33308)
+    }
+  ],
+  "Duration": NumberLong(191978),
+  "CreatedDate": ISODate("2018-05-14T09:05:00.340+0000")
+}{
+  "_id": ObjectId("5af95935fefd5e32854298c1"),
+  "HostName": "W7DEV6",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(15529)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(24047)
+        }
+      ],
+      "Duration": NumberLong(39585)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(5541)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(8283)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(2272)
+        }
+      ],
+      "Duration": NumberLong(16098)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(19567)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(30601)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(14439)
+        }
+      ],
+      "Duration": NumberLong(64609)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(6568)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(16900)
+        }
+      ],
+      "Duration": NumberLong(23469)
+    }
+  ],
+  "Duration": NumberLong(143776),
+  "CreatedDate": ISODate("2018-05-14T09:36:36.589+0000")
+}{
+  "_id": ObjectId("5af95ec4fefd5e3285429fd6"),
+  "HostName": "DEV-SRVAPP01",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(23321)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(27403)
+        }
+      ],
+      "Duration": NumberLong(50724)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(9835)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(18015)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(6083)
+        }
+      ],
+      "Duration": NumberLong(33933)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(17443)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(21441)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(6520)
+        }
+      ],
+      "Duration": NumberLong(45405)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(10697)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(23351)
+        }
+      ],
+      "Duration": NumberLong(34049)
+    }
+  ],
+  "Duration": NumberLong(164142),
+  "CreatedDate": ISODate("2018-05-14T10:00:00.394+0000")
+}{
+  "_id": ObjectId("5af96ccffefd5e328542b17f"),
+  "HostName": "DEV-SRVAPP01",
+  "TaskResults": [
+    {
+      "Task": "CPU",
+      "Results": [
+        {
+          "Task": "SingleCore",
+          "Duration": NumberLong(23257)
+        },
+        {
+          "Task": "MultiCore",
+          "Duration": NumberLong(26537)
+        }
+      ],
+      "Duration": NumberLong(49794)
+    },
+    {
+      "Task": "Disk[C:\\temp\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(11250)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(15851)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(5439)
+        }
+      ],
+      "Duration": NumberLong(32541)
+    },
+    {
+      "Task": "Disk[\\\\dev-srvapp01\\Temporary Files\\Benchmark]",
+      "Results": [
+        {
+          "Task": "SmallFile",
+          "Duration": NumberLong(14463)
+        },
+        {
+          "Task": "MediumFile",
+          "Duration": NumberLong(21225)
+        },
+        {
+          "Task": "LargeFile",
+          "Duration": NumberLong(6817)
+        }
+      ],
+      "Duration": NumberLong(42506)
+    },
+    {
+      "Task": "Memory",
+      "Results": [
+        {
+          "Task": "SmallBlob",
+          "Duration": NumberLong(11431)
+        },
+        {
+          "Task": "LargeBlob",
+          "Duration": NumberLong(22713)
+        }
+      ],
+      "Duration": NumberLong(34145)
+    }
+  ],
+  "Duration": NumberLong(158994),
+  "CreatedDate": ISODate("2018-05-14T11:00:00.196+0000")
+}

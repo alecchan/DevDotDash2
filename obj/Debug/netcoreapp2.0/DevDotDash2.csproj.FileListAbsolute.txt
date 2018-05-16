@@ -1,0 +1,11 @@
+/home/alecchan/Documents/dotnet2/DevDotDash2/bin/Debug/netcoreapp2.0/DevDotDash2.deps.json
+/home/alecchan/Documents/dotnet2/DevDotDash2/bin/Debug/netcoreapp2.0/DevDotDash2.runtimeconfig.json
+/home/alecchan/Documents/dotnet2/DevDotDash2/bin/Debug/netcoreapp2.0/DevDotDash2.runtimeconfig.dev.json
+/home/alecchan/Documents/dotnet2/DevDotDash2/bin/Debug/netcoreapp2.0/DevDotDash2.dll
+/home/alecchan/Documents/dotnet2/DevDotDash2/bin/Debug/netcoreapp2.0/DevDotDash2.pdb
+/home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.csproj.CoreCompileInputs.cache
+/home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.AssemblyInfoInputs.cache
+/home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.AssemblyInfo.cs
+/home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.dll
+/home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.pdb
+/home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.csprojResolveAssemblyReference.cache

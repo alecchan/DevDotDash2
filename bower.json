@@ -1,0 +1,22 @@
+{
+  "name": "DevDotDash2",
+  "authors": [
+    "alecchan <alec.chan5@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dygraphs": "^2.1.0",
+    "underscore": "^1.9.0",
+    "jquery": "^3.3.1"
+  }
+}
