@@ -1,0 +1,6 @@
+wwwroot/libs/*
+bin/*
+Obj/
+node_modules
+.vscode
+package-lock.json

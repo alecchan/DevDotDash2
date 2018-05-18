@@ -2,36 +2,57 @@
 
 <div id="contents">
 
+    <div id="graphes">
+
+    </div>
     <div id="graphdiv"></div>
 
     @section Scripts {
 
     <script type="text/javascript">
-     function loaded(data) {
+     function loaded(resp) {
 
-                g = new Dygraph(
-                    document.getElementById("graphdiv"),
+        var hosts =  _.uniq(_.pluck(resp, "hostName"))
+        var firstHost = "W7DEV4";//_.first(hosts);
+        hosts.forEach(function(host)
+        {
+          
 
-                    // CSV or path to a CSV file.
-                    "Date,Temperature\n" +
-                    "2008-05-07,75\n" +
-                    "2008-05-08,70\n" +
-                    "2008-05-09,80\n"
+            var fhd = _.sortBy(_.where(resp, {hostName: host}), 'createdDate');
 
-                )
+            var data = [];
+            var t = new Date();
+            var total = 0;
+            for (var i = 0; i < fhd.length; i++) {
+                var x = new Date(fhd[i].createdDate);
+                var y =fhd[i].duration/1000;
+                total += y;
+                data.push([x, y]);
             }
+            var avg = Math.round(total / fhd.length, 2);
+            $("#graphes").append("<div class='chart-titleotn'>" + host + " - Average Duration ("+avg+")</div>")
+            $("#graphes").append("<div id='" + host + "-chart'></div>")
+
+            var g = new Dygraph(document.getElementById(host + "-chart"), data,
+                            {
+                                drawPoints: true,
+                                showRoller: true,
+                                width: 1600,
+                            //   valueRange: [0.0, 1000],
+                                labels: ['Date', 'Duration']
+                            });
             
+        });
+     }        
         $(document).ready(function() {
 
-           
-
             function loadData() {
-                $.getJSON("/home/data").done(loaded);
+                $.get("/home/data", loaded);
             }
 
             loadData();
         });
-
+    
         // containing div
     </script>
     }
