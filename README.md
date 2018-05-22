@@ -1,3 +1,3 @@
 # DevDotDash2
 
-by Alec and Phil
+by Alec and Philip
