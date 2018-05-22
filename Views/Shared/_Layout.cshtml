@@ -10,13 +10,14 @@
 </head>
 
 <body>
-    @RenderBody() 
+    @RenderBody()
 
-
-   <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/dygraph/2.1.0/dygraph.min.js"></script>
-   <script type='text/javascript' src="~/libs/jquery/dist/jquery.js" asp-append-version="true"></script>
-   <script type='text/javascript' src="~/libs/underscore/underscore.js" asp-append-version="true"></script>
-   @RenderSection("Scripts", false)
+	<!-- <script type='text/javascript' src="~/libs/dygraphs/src/dygraph.js"></script> -->
+    <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/dygraph/2.1.0/dygraph.min.js"></script>
+    <script type='text/javascript' src="~/libs/jquery/dist/jquery.js" asp-append-version="true"></script>
+    <script type='text/javascript' src="~/libs/underscore/underscore.js" asp-append-version="true"></script>
+    <script type='text/javascript' src="~/libs/dygraphs/src/extras/synchronizer.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", false)
 </body>
 
 </html>
