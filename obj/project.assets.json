@@ -13072,11 +13072,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\proto\\DevDotDash2-master\\DevDotDash2.csproj",
+      "projectUniqueName": "C:\\code\\proto\\DevDotDash2-master\\DevDotDash2.csproj",
       "projectName": "DevDotDash2",
-      "projectPath": "C:\\Code\\proto\\DevDotDash2-master\\DevDotDash2.csproj",
+      "projectPath": "C:\\code\\proto\\DevDotDash2-master\\DevDotDash2.csproj",
       "packagesPath": "C:\\Users\\dev_ach\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\proto\\DevDotDash2-master\\obj\\",
+      "outputPath": "C:\\code\\proto\\DevDotDash2-master\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
