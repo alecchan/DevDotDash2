@@ -8,8 +8,10 @@ using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 
 public class HomeController : Controller {
-    public HomeController () {
+    private readonly IBenchmarkRepository _repo;
 
+    public HomeController (IBenchmarkRepository repo) {
+        _repo = repo;
     }
 
     public IActionResult Index () {
@@ -59,8 +61,8 @@ public class HomeController : Controller {
 
     public IActionResult Data()
     {
-        var repo = new BenchmarkRepository();
-        var benchmarks = repo.GetBenchmarks(DateTime.Now.StartOfWeek(DayOfWeek.Saturday), DateTime.Now);
+    
+        var benchmarks = _repo.GetBenchmarks(DateTime.Now.StartOfWeek(DayOfWeek.Saturday), DateTime.Now);
 
         var hosts = benchmarks.GroupBy(g => g.HostName)
                               .Select(s => new { HostName = s.Key, Count = s.Count() })

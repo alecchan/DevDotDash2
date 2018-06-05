@@ -1,0 +1,91 @@
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<style>
+    .chart-titleotn {
+        font-size: 14px;
+    }
+</style>
+
+
+
+<div id="contents">
+
+    <div id="graphes">
+
+    </div>
+    <div id="graphdiv"></div>
+
+     @section Scripts {
+    <script>
+        $(document).ready(function () {
+
+
+            function loaded(data)
+            {
+                 
+                for (var k in data){
+                    let projectName = data[k].key;
+                    let buildItems = data[k].value;
+
+
+                    $("#graphes").append("<div class='chart-titleotn'>" + projectName + "</div>")
+                    $("#graphes").append("<div id='" + projectName + "-chart'></div>")
+
+                    var graphData = [];
+
+                    let hostGroups = _.groupBy(buildItems, function(x){ return x.host; });
+                    let labels = ['Date'];
+                    for (var hostGroupIndex = 0;  hostGroupIndex < Object.keys(hostGroups).length; hostGroupIndex ++){
+                        var grp = Object.values(hostGroups)[hostGroupIndex];
+
+                        labels.push(Object.keys(hostGroups)[hostGroupIndex]);
+                        for (var i = 0; i < grp.length; i++) {
+                            let item = grp[i];
+
+                            let dc = new Date(item.createdDate);
+
+                            let dataItem = _.find(graphData, function(x){ return x[0] == dc });
+                            if (dataItem)
+                            {
+                                dataItem[hostGroupIndex] = item.duration;
+                            }
+                            else
+                            {
+                                let sz = Object.keys(hostGroups).length + 1;
+                                let da = new Array(sz);
+                                da = da.fill(null);
+                                da[0] = dc;
+                                da[hostGroupIndex+1] = item.duration;
+                                graphData.push(da);
+                            }
+                        }
+                    }
+
+                    graphData = _.sortBy(graphData, function(x){ return x[0]; });
+
+                    g = new Dygraph(document.getElementById(projectName + "-chart"), graphData,
+                        {
+                            connectSeparatedPoints: true,
+                            drawPoints: true,
+                            showRoller: true,
+                            width: 1600,  
+                            height: 200,                          
+                            labels: labels
+                        });
+
+               //     gs.push(g);
+                }
+            }
+
+            function loadData() {
+                $.get("/build/data", loaded);
+            }
+
+
+                    loadData();
+                });
+
+                // containing div
+            
+    </script>
+}
+</div>

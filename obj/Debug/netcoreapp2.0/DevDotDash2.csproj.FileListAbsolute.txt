@@ -9,3 +9,14 @@
 /home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.dll
 /home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.pdb
 /home/alecchan/Documents/dotnet2/DevDotDash2/obj/Debug/netcoreapp2.0/DevDotDash2.csprojResolveAssemblyReference.cache
+C:\code\proto\DevDotDash2-master\bin\Debug\netcoreapp2.0\DevDotDash2.deps.json
+C:\code\proto\DevDotDash2-master\bin\Debug\netcoreapp2.0\DevDotDash2.runtimeconfig.json
+C:\code\proto\DevDotDash2-master\bin\Debug\netcoreapp2.0\DevDotDash2.runtimeconfig.dev.json
+C:\code\proto\DevDotDash2-master\bin\Debug\netcoreapp2.0\DevDotDash2.dll
+C:\code\proto\DevDotDash2-master\bin\Debug\netcoreapp2.0\DevDotDash2.pdb
+C:\code\proto\DevDotDash2-master\obj\Debug\netcoreapp2.0\DevDotDash2.csprojResolveAssemblyReference.cache
+C:\code\proto\DevDotDash2-master\obj\Debug\netcoreapp2.0\DevDotDash2.csproj.CoreCompileInputs.cache
+C:\code\proto\DevDotDash2-master\obj\Debug\netcoreapp2.0\DevDotDash2.AssemblyInfoInputs.cache
+C:\code\proto\DevDotDash2-master\obj\Debug\netcoreapp2.0\DevDotDash2.AssemblyInfo.cs
+C:\code\proto\DevDotDash2-master\obj\Debug\netcoreapp2.0\DevDotDash2.dll
+C:\code\proto\DevDotDash2-master\obj\Debug\netcoreapp2.0\DevDotDash2.pdb

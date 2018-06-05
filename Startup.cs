@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DevDotDash2.DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -15,6 +16,8 @@ namespace DevDotDash2
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IBenchmarkRepository, BenchmarkRepository>();
+            services.AddScoped<IBuildBenchmarkRepository, BuildBenchmarkRepository>();
             services.AddMvc();
         }
 
