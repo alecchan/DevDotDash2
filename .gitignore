@@ -1,6 +1,6 @@
 wwwroot/libs/*
 bin/*
-Obj/
+Obj/*
 node_modules
 .vscode
 package-lock.json
