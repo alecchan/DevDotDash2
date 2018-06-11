@@ -15,92 +15,83 @@
 
     @section Scripts {
 
-        <script type="text/javascript">
+    <script type="text/javascript">
+        function loaded(hosts) {
+            gs = [];
 
-            function loaded(hosts) {
-                gs = [];
+            hosts.forEach(function(host) {
+                var fhd = host.dataItems;
+                var data = [];
+                var t = new Date();
+                var total = 0;
+                var totalCpu = 0;
+                var totalDisk = 0;
+                var totalNetwork = 0;
+                var totalMemory = 0;
+                var itemCount = 0;
 
-                hosts.forEach(function (host) {
-                    var fhd = host.dataItems;
+                for (var i = 0; i < fhd.length; i++) {
+                    var x = new Date(fhd[i].createdDate);
 
-                    var data = [];
-                    var t = new Date();
+                    var yCpu = fhd[i].cpuDuration;
+                    var yDisk = fhd[i].diskDuration;
+                    var yNetwork = fhd[i].networkDuration;
+                    var yMemory = fhd[i].memoryDuration;
 
-                    var total = 0;
-                    var totalCpu = 0;
-                    var totalDisk = 0;
-                    var totalNetwork = 0;
-                    var totalMemory = 0;
+                    data.push([x, yCpu, yDisk, yNetwork, yMemory]);
 
-                    var itemCount = 0;
+                    if (yCpu != null) {
+                        total += yCpu + yDisk + yNetwork + yMemory;
+                        totalCpu += yCpu;
+                        totalDisk += yDisk;
+                        totalNetwork += yNetwork;
+                        totalMemory += yMemory;
 
-                    for (var i = 0; i < fhd.length; i++) {
-                        var x = new Date(fhd[i].createdDate);
-
-                        var yCpu = fhd[i].cpuDuration;
-                        var yDisk = fhd[i].diskDuration;
-                        var yNetwork = fhd[i].networkDuration;
-                        var yMemory = fhd[i].memoryDuration;
-
-                        data.push([x, yCpu, yDisk, yNetwork, yMemory]);
-
-                        if (yCpu != null) {
-                            total += yCpu + yDisk + yNetwork + yMemory;
-                            totalCpu += yCpu;
-                            totalDisk += yDisk;
-                            totalNetwork += yNetwork;
-                            totalMemory += yMemory;
-
-                            itemCount++;
-                        }
+                        itemCount++;
                     }
-
-                    var avg = (total / itemCount).toFixed(2);
-
-                    var avgCpu = (totalCpu / itemCount).toFixed(2);
-                    var avgDisk = (totalDisk / itemCount).toFixed(2);
-                    var avgNetwork = (totalNetwork / itemCount).toFixed(2);
-                    var avgMemory = (totalMemory / itemCount).toFixed(2);
-
-                    $("#graphes").append("<div class='chart-titleotn'>" + host.hostName +
-                        " - Averages: Duration(" + avg +
-                            "sec), CPU(" + avgCpu +
-                            "sec), Disk(" + avgDisk +
-                            "sec), Network(" + avgNetwork  +
-                            "sec), Memory(" + avgMemory +
-                            "sec)</div>")
-
-                    $("#graphes").append("<div id='" + host.hostName + "-chart'></div>")
-
-                    g = new Dygraph(document.getElementById(host.hostName + "-chart"), data,
-                        {
-                            connectSeparatedPoints: true,
-                            drawPoints: true,
-                            showRoller: true,
-                            width: 1600,                            
-                            labels: ['Date', 'CPU', 'Disk', 'Network', 'Memory']
-                        });
-
-                    gs.push(g);
-                });
-
-                var sync = Dygraph.synchronize(gs);
-            }
-
-            $(document).ready(function () {
-
-                function loadData() {
-                    $.get("/home/data", loaded);
                 }
 
-                loadData();
+                var avg = (total / itemCount).toFixed(2);
+                var avgCpu = (totalCpu / itemCount).toFixed(2);
+                var avgDisk = (totalDisk / itemCount).toFixed(2);
+                var avgNetwork = (totalNetwork / itemCount).toFixed(2);
+                var avgMemory = (totalMemory / itemCount).toFixed(2);
+
+                $("#graphes").append("<div class='chart-titleotn'>" + host.hostName +
+                    " - Averages: Duration(" + avg +
+                    "sec), CPU(" + avgCpu +
+                    "sec), Disk(" + avgDisk +
+                    "sec), Network(" + avgNetwork +
+                    "sec), Memory(" + avgMemory +
+                    "sec)</div>")
+
+                $("#graphes").append("<div id='" + host.hostName + "-chart'></div>")
+
+                g = new Dygraph(document.getElementById(host.hostName + "-chart"), data, {
+                    connectSeparatedPoints: true,
+                    drawPoints: true,
+                    showRoller: true,
+                    width: 1600,
+                    labels: ['Date', 'CPU', 'Disk', 'Network', 'Memory']
+                });
+
+                gs.push(g);
             });
 
-            // containing div
-        </script>
+            var sync = Dygraph.synchronize(gs);
+        }
+
+        $(document).ready(function() {
+
+            function loadData() {
+                $.get("/home/data", loaded);
+            }
+
+            loadData();
+        });
+
+        // containing div
+    </script>
     }
 
 </div>
-
-
-

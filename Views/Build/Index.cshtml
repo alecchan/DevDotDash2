@@ -14,27 +14,26 @@
     </div>
     <div id="graphdiv"></div>
 
-     @section Scripts {
+    @section Scripts {
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
 
+            function loaded(data) {
 
-            function loaded(data)
-            {
-                 
-                for (var k in data){
+                for (var k in data) {
                     let projectName = data[k].key;
                     let buildItems = data[k].value;
-
 
                     $("#graphes").append("<div class='chart-titleotn'>" + projectName + "</div>")
                     $("#graphes").append("<div id='" + projectName + "-chart'></div>")
 
                     var graphData = [];
+                    let hostGroups = _.groupBy(buildItems, function(x) {
+                        return x.host;
+                    });
 
-                    let hostGroups = _.groupBy(buildItems, function(x){ return x.host; });
                     let labels = ['Date'];
-                    for (var hostGroupIndex = 0;  hostGroupIndex < Object.keys(hostGroups).length; hostGroupIndex ++){
+                    for (var hostGroupIndex = 0; hostGroupIndex < Object.keys(hostGroups).length; hostGroupIndex++) {
                         var grp = Object.values(hostGroups)[hostGroupIndex];
 
                         labels.push(Object.keys(hostGroups)[hostGroupIndex]);
@@ -43,49 +42,47 @@
 
                             let dc = new Date(item.createdDate);
 
-                            let dataItem = _.find(graphData, function(x){ return x[0] == dc });
-                            if (dataItem)
-                            {
+                            let dataItem = _.find(graphData, function(x) {
+                                return x[0] == dc
+                            });
+                            if (dataItem) {
                                 dataItem[hostGroupIndex] = item.duration;
-                            }
-                            else
-                            {
+                            } else {
                                 let sz = Object.keys(hostGroups).length + 1;
                                 let da = new Array(sz);
                                 da = da.fill(null);
                                 da[0] = dc;
-                                da[hostGroupIndex+1] = item.duration;
+                                da[hostGroupIndex + 1] = item.duration;
                                 graphData.push(da);
                             }
                         }
                     }
 
-                    graphData = _.sortBy(graphData, function(x){ return x[0]; });
+                    graphData = _.sortBy(graphData, function(x) {
+                        return x[0];
+                    });
 
-                    g = new Dygraph(document.getElementById(projectName + "-chart"), graphData,
-                        {
-                            connectSeparatedPoints: true,
-                            drawPoints: true,
-                            showRoller: true,
-                            width: 1600,  
-                            height: 200,                          
-                            labels: labels
-                        });
+                    g = new Dygraph(document.getElementById(projectName + "-chart"), graphData, {
+                        connectSeparatedPoints: true,
+                        drawPoints: true,
+                        showRoller: true,
+                        width: 1600,
+                        height: 200,
+                        labels: labels
+                    });
 
-               //     gs.push(g);
+                    //     gs.push(g);
                 }
             }
 
             function loadData() {
-                $.get("/build/data", loaded);
+                $.get("/build/BuildData", loaded);
             }
 
+            loadData();
+        });
 
-                    loadData();
-                });
-
-                // containing div
-            
+        // containing div
     </script>
-}
+    }
 </div>

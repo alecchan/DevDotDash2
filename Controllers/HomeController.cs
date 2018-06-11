@@ -18,47 +18,6 @@ public class HomeController : Controller {
         return View ();
     }
 
-    //public IActionResult Data () {
-
-    //    var repo = new BenchmarkRepository ();
-    //    var raw = repo.GetBenchmarks (DateTime.Now.StartOfWeek (DayOfWeek.Monday), DateTime.Now);
-    //    //var x = repo.GetHosts ();
-    //    return Json(raw);
-
-    //    //  var hosts = repo.GetHosts().OrderBy(x => x);
-    //    //     var dates = raw.Select(x => x.CreatedDate).Distinct().OrderBy(x=>x);
-    //    //     var data = new List <object[]>();
-    //    //     foreach(var d in dates)
-    //    //     {
-    //    //         List<object> itemData = new List<object>();
-    //    //         itemData.Add(d);
-    //    //         foreach(var h in hosts)
-    //    //         {
-    //    //             var item = raw.FirstOrDefault(x => x.HostName == h && x.CreatedDate == d);
-    //    //             itemData.Add(item == null ? null : (item.Duration / 1000).ToString());
-    //    //         }
-
-    //    //         data.Add(itemData.ToArray());
-    //    //     }
-    //    //     return Json(data.ToArray());
-    //}
-
-    public class DataItem
-    {
-        public DateTime CreatedDate { get; set; }
-        public int? Duration { get; set; }
-        public int? CpuDuration { get; set; }
-        public int? DiskDuration { get; set; }
-        public int? NetworkDuration { get; set; }
-        public int? MemoryDuration { get; set; }
-    }
-
-    public class HostData
-    {
-        public string HostName { get; set; }
-        public List<DataItem> DataItems { get; set; } = new List<DataItem>();
-    }
-
     public IActionResult Data()
     {
     
@@ -71,16 +30,16 @@ public class HomeController : Controller {
 
         var dates = benchmarks.Select(x => x.CreatedDate).Distinct().OrderBy(x => x);
 
-        var hostData = new List<HostData>();
+        var hostData = new List<HostDataViewModel>();
 
         foreach (var h in hosts)
         {
-            var item = new HostData { HostName = h };
+            var item = new HostDataViewModel { HostName = h };
             hostData.Add(item);
 
             foreach (var d in dates)
             {
-                var dataItem = new DataItem { CreatedDate = d };
+                var dataItem = new DataItemViewModel { CreatedDate = d };
                 item.DataItems.Add(dataItem);
 
                 var benchmark = benchmarks.FirstOrDefault(x => x.HostName == h && x.CreatedDate == d);

@@ -1,0 +1,66 @@
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<style>
+    .chart-titleotn {
+        font-size: 14px;
+    }
+</style>
+
+
+
+<div id="contents">
+ <div id="graphes">
+
+ </div>
+</div>
+
+@section Scripts {
+<script>
+    $(document).ready(function() {
+
+        function norm(name)
+        {
+                return name.replace(".", "-").replace(" ", "-").toLowerCase();
+        }
+
+        function loaded(data) {
+
+            for (solution in data) {
+
+                let ele = norm(solution) + "-chart";
+                $("#graphes").append("<div class='chart-titleotn'>" + solution + "</div>")
+                $("#graphes").append("<div id='" + ele + "'></div>")
+              
+                let buildItems = data[solution];
+
+                Morris.Bar({
+                    element: ele,
+                    data: buildItems,
+                    // data: [{
+                    //         host: 'W7DEV3',
+                    //         min: 100,
+                    //         avg: 90,
+                    //         max: 70
+                    //     },
+                    //     {
+                    //         host: 'W7DEV4',
+                    //         min: 75,
+                    //         avg: 65,
+                    //         max: 70
+                    //     },
+
+                    // ],
+                    xkey: 'host',
+                    ykeys: ['min', 'avg', 'max'],
+                    labels: ['min', 'avg', 'max']
+                });
+            }
+        }
+
+        function loadData() {
+            $.get("/build/Hosts/Data", loaded);
+        }
+
+        loadData();
+    });
+</script>
+}

@@ -6,18 +6,6 @@ using DevDotDash2.DAL;
 using DevDotDash2.DAL.Entities;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
-
-public class BuildData {
-
-    public string ProjectName { get; set; }
-
-    public string Host { get; set; }
-
-    public DateTime CreatedDate { get; set; }
-
-    public int Duration { get; set; }
-}
-
 public class BuildController : Controller {
 
     private readonly IBuildBenchmarkRepository _repo;
@@ -31,7 +19,7 @@ public class BuildController : Controller {
     }
 
     [Produces ("application/json")]
-    public IActionResult Data (DateTime? start = null, DateTime? end = null) {
+    public IActionResult BuildData (DateTime? start = null, DateTime? end = null) {
 
         start = start ?? DateTime.Now.StartOfWeek (DayOfWeek.Saturday);
         end = end ?? DateTime.Now;
@@ -45,11 +33,11 @@ public class BuildController : Controller {
             .OrderByDescending (x => x.Count)
             .Select (s => s.Tags);
 
-        var data = new Dictionary<string, List<BuildData>> ();
+        var data = new Dictionary<string, List<BuildDataViewModel>> ();
 
         foreach (var p in projects) {
 
-            var items = benchmarks.Where (x => x.Tags == p).Select (x => new BuildData {
+            var items = benchmarks.Where (x => x.Tags == p).Select (x => new BuildDataViewModel {
                 ProjectName = x.Tags,
                     Host = x.Host,
                     Duration = x.BuildDuration,
@@ -63,8 +51,8 @@ public class BuildController : Controller {
     }
 
     [Produces ("application/json")]
-    [Route ("Build/Data/Project")]
-    public IActionResult BuildByProject (DateTime? start = null, DateTime? end = null) {
+    [Route ("Build/Data/Solution")]
+    public IActionResult BuildBySolution (DateTime? start = null, DateTime? end = null) {
 
         start = start ?? DateTime.Now.StartOfWeek (DayOfWeek.Saturday);
         end = end ?? DateTime.Now;
@@ -73,15 +61,55 @@ public class BuildController : Controller {
             .Where (x => x.SolutionBuild == true && x.UpToDate == false);
 
         var projects = from b in benchmarks
-            group b by b.Solution into grp
-            select new {
-                Solution = grp.Key,
-                ProjectCount = benchmarks.Where(b=>b.Solution == grp.Key).Select(x=>x.Tags).Distinct().Count(),
-                BuildCount = grp.Count (),
-                TotalBuildDuration = grp.Sum (c => c.BuildDuration)
-            };
+        group b by b.Solution into grp
+        select new {
+            Solution = grp.Key,
+            ProjectCount = benchmarks.Where (b => b.Solution == grp.Key).Select (x => x.Tags).Distinct ().Count (),
+            BuildCount = grp.Count (),
+            TotalBuildDuration = grp.Sum (c => c.BuildDuration)
+        };
 
         return Json (projects.ToArray ());
     }
 
+    public IActionResult Hosts () {
+
+        return View ();
+    }
+
+    [Produces ("application/json")]
+    [Route ("Build/Hosts/Data")]
+    public IActionResult HostData () {
+        var start = DateTime.Now.StartOfWeek (DayOfWeek.Saturday);
+        var end = DateTime.Now;
+
+        var benchmarks = _repo.GetBuildBenchmarks (start, end)
+            .Where (x => x.SolutionBuild == false && x.UpToDate == false);
+
+        var solutions = benchmarks.GroupBy (x => x.Solution).Select (x => x.Key).Distinct ();
+        var data = new Dictionary<string, object[]> ();
+        foreach (var solution in solutions) {
+
+            var hosts = from b in benchmarks
+            group b by b.Host into grp select grp.Key;
+
+            var items = new List<object> ();
+            foreach (var host in hosts) {
+                var hostData = benchmarks.Where (x => x.Host == host && x.Solution == solution);
+                if (hostData.Any ()) {
+                    var item = new {
+                        Host = host,
+                        Min = hostData.Min (x => x.BuildDuration),
+                        Avg = hostData.Average (x => x.BuildDuration),
+                        Max = hostData.Max (x => x.BuildDuration)
+                    };
+
+                    items.Add (item);
+                }
+            }
+            data.Add (solution, items.ToArray ());
+        }
+
+        return Json (data);
+    }
 }
