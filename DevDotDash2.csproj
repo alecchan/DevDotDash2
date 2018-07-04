@@ -9,4 +9,7 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5"/>
     <PackageReference Include="MongoDB.Driver" Version="2.6.0"/>
   </ItemGroup>
+  <PropertyGroup>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+  </PropertyGroup>
 </Project>

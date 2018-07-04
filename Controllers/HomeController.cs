@@ -18,10 +18,12 @@ public class HomeController : Controller {
         return View ();
     }
 
-    public IActionResult Data()
+    public IActionResult Data(DateTime? start = null, DateTime? end = null) 
     {
-    
-        var benchmarks = _repo.GetBenchmarks(DateTime.Now.StartOfWeek(DayOfWeek.Saturday), DateTime.Now);
+        start = start ?? DateTime.Now.StartOfWeek (DayOfWeek.Saturday);
+        end = end ?? DateTime.Now;
+
+        var benchmarks = _repo.GetBenchmarks(start.Value, end.Value);
 
         var hosts = benchmarks.GroupBy(g => g.HostName)
                               .Select(s => new { HostName = s.Key, Count = s.Count() })

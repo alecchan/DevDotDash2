@@ -84,7 +84,17 @@
         $(document).ready(function() {
 
             function loadData() {
-                $.get("/home/data", loaded);
+                var start = getParameterByName("start");
+                var end = getParameterByName("end");
+
+                if (start)
+                {
+                    $.get("/home/data?start=" + start + "&end=" + end, loaded);
+                }
+                else
+                {
+                    $.get("/home/data", loaded);
+                }
             }
 
             loadData();

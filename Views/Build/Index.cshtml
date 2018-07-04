@@ -76,7 +76,18 @@
             }
 
             function loadData() {
-                $.get("/build/BuildData", loaded);
+
+                var start = getParameterByName("start");
+                var end = getParameterByName("end");
+
+                if (start)
+                {
+                    $.get("/build/BuildData?start=" + start + "&end=" + end, loaded);
+                }
+                else
+                {
+                    $.get("/build/BuildData", loaded);
+                }
             }
 
             loadData();
